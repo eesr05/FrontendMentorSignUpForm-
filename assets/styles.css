@@ -1,0 +1,104 @@
+body {
+	background: url('/images/bg-intro-mobile.png') hsl(0, 100%, 74%);
+	font-family: 'Poppins', sans-serif;
+}
+h1 {
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+
+	font-weight: 500;
+}
+p {
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	margin: 10px 10px;
+
+	min-width: 35ch;
+}
+button {
+	background: hsl(248, 32%, 49%);
+	border: none;
+	margin: 30px;
+	width: 300px;
+	height: 75px;
+	color: white;
+	border-radius: 10px;
+	justify-content: center;
+}
+span {
+	font-weight: 600;
+}
+
+#formulario {
+	background: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 12px;
+}
+.coisas {
+	border: 1px solid rgb(207, 207, 207);
+	height: 45px;
+	margin: 20px;
+	color: #ccc;
+	text-indent: 12px;
+	font-family: 'Poppins';
+	font-weight: 600;
+}
+.btn-input {
+	background: hsl(154, 59%, 51%);
+	height: 50px;
+	margin: 10px 1px 10px 15px;
+	font-size: 17px;
+	font-family: 'Poppins';
+	font-weight: 600;
+}
+.content-input {
+	font-size: 10px;
+	color: #ccc;
+	margin-right: 3px;
+}
+.terms-input {
+	color: hsl(0, 100%, 74%);
+	word-break: normal;
+}
+
+@media (min-width: 850px) and (max-width: 1440px) {
+	body {
+		background: url('/images/bg-intro-desktop.png') hsl(0, 100%, 74%);
+		display: flex;
+		margin: 8px;
+	}
+	.text {
+		display: flex;
+		flex-direction: column;
+		margin: 150px;
+		width: 400px;
+		font-family: 'Poppins';
+	}
+	h1 {
+		font-size: 39px;
+		text-align: left;
+	}
+	p {
+		min-width: 55ch;
+		text-align: left;
+		text-indent: 1px;
+		margin-left: 1px;
+	}
+	button {
+		width: 400px;
+		height: 50px;
+	}
+	.tudo {
+		flex-direction: column;
+		margin-top: 10px;
+		height: 100px;
+	}
+	.content-input {
+		text-align: center;
+	}
+}
